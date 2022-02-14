@@ -1,0 +1,7 @@
+### local config
+GET http://localhost:8088/config/local
+Accept: application/json
+
+### dev config
+GET http://localhost:8088/config/dev
+Accept: application/json
