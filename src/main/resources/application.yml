@@ -6,3 +6,11 @@ spring:
       server:
         git:
           uri: https://github.com/ysjune/spring-cloud-config-repository-test
+    bus:
+      enabled: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: glen
+    password: glen
