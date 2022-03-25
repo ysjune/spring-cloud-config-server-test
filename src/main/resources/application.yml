@@ -6,6 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/ysjune/spring-cloud-config-repository-test
+          searchPaths:
+            - '{application}'
+            - '{application}/*'
     bus:
       enabled: true
 
